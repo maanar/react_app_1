@@ -1,0 +1,34 @@
+.test{
+    background-color: white;
+    height: 100vh;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+.layer {
+    background-color: #1abc9ccf;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.7s opacity;
+    color: white;
+}
+
+.action:hover .layer{
+    opacity: 1;
+}
+
+.secondLayer{
+    z-index: 9999;
+}
+
+
+.img{
+    width: 600px;
+}
+
+
+

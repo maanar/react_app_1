@@ -1,0 +1,29 @@
+.test{
+    background-color: white;
+    height: 100vh;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+.top {
+    color: #1abc9ccf;
+    top: 0px;
+    opacity: 0;
+    cursor: pointer;
+    margin-bottom: 7px;
+    transition: 1s all;
+
+}
+
+.label:hover .top{
+   top: 40px;
+   opacity: 1;
+}
+
+.btun{
+    background-color: #1abc9ccf !important ;
+}
